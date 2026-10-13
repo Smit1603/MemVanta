@@ -1,11 +1,11 @@
-baseline_commit=a36850ef12db723630553fd427994b1b2adc57ce
-candidate_commit=bb3f3cb193153d6e7e25779ad4d023b87e21dd1b
+baseline_commit=fea188ebcfb7389e593c5c87bd07ff42ab6605c1
+candidate_commit=66701cae69c03f91efbff8f2f9ecfd6a8ccbb048
 ab_schema=9
 reps=3
 performance_tolerance_pct=2
 model_sha256=892f6e2e840ed98bb7bc1d74da67ae0cca52b2d90b0316d0a7e66a37a5a60760
 threads=4 prompt=128 gen=16 ctx=256 batch=32 kv=f16
-Linux runnervmtr4k5 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+Linux runnervmmprz5 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 Architecture:                            x86_64
 CPU op-mode(s):                          32-bit, 64-bit
 Address sizes:                           48 bits physical, 57 bits virtual
@@ -54,5 +54,5 @@ Vulnerability Tsa:                       Not affected
 Vulnerability Tsx async abort:           Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
 Vulnerability Vmscape:                   Not affected
                total        used        free      shared  buff/cache   available
-Mem:            15Gi       1.0Gi       8.3Gi        46Mi       6.7Gi        14Gi
+Mem:            15Gi       1.0Gi       7.2Gi        49Mi       7.7Gi        14Gi
 Swap:          3.0Gi          0B       3.0Gi
